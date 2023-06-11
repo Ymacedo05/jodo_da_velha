@@ -1,0 +1,57 @@
+@mixin flex($a){
+  display: flex;
+  justify-content: $a;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container{
+  border: 1px solid white;
+  @include flex(center);
+  width: 350px;
+  height: 315px;
+
+  div{
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    @include flex(center);
+  }
+
+  .d1{
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .d2{
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .d3{
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .d4{
+    border-left: none;
+  }
+ 
+  .d6{
+    border-right: none;
+  }
+  .d7{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+  }
+  .d8{
+    border-bottom: none;
+    border-top: none;
+  }
+  .d9{
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+  }
+}

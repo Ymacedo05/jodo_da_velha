@@ -1,0 +1,53 @@
+.container {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 315px;
+}
+.container div {
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .d1 {
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+.container .d2 {
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+.container .d3 {
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+.container .d4 {
+  border-left: none;
+}
+.container .d6 {
+  border-right: none;
+}
+.container .d7 {
+  border-left: none;
+  border-bottom: none;
+  border-top: none;
+}
+.container .d8 {
+  border-bottom: none;
+  border-top: none;
+}
+.container .d9 {
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+}/*# sourceMappingURL=jogo.css.map */
